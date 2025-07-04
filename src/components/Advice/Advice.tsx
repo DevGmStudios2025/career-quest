@@ -56,6 +56,7 @@ const Advice = () => {
                 </h3>
                 <p style={{ marginTop: "30px" }}>{talk.date}</p>
                 <div className="time-card">
+<<<<<<< HEAD
                   <p>{talk["time-start"]}</p>
                   {talk["time-start-p"] && (
                     <>
@@ -72,6 +73,10 @@ const Advice = () => {
                     </div>
                   </>
                 )}
+=======
+                  <p>{talk["time-start"]}</p> | <p>{talk["time-start-p"]}</p>
+                </div>
+>>>>>>> 1bdd1ed (Initial commit)
               </div>
             </TalkCardAdvice>
           ))}
