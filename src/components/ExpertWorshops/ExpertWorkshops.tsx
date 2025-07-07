@@ -57,6 +57,9 @@ const ExpertWorkshops = () => {
                 <p style={{ marginTop: "30px" }}>{talk.date}</p>
                 <div className="time-card">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9278656 (feat: fix dates & times)
                   <p>{talk["time-start"]}</p>
                   {talk["time-start-p"] && (
                     <>
@@ -64,6 +67,7 @@ const ExpertWorkshops = () => {
                       <p>{talk["time-start-p"]}</p>
                     </>
                   )}
+<<<<<<< HEAD
                 </div>
                 {talk["date2"] && talk["time-start2"] && (
                   <>
@@ -77,6 +81,17 @@ const ExpertWorkshops = () => {
                   <p>{talk["time-start"]}</p> | <p>{talk["time-start-p"]}</p>
                 </div>
 >>>>>>> 1bdd1ed (Initial commit)
+=======
+                </div>
+                {talk["date2"] && talk["time-start2"] && (
+                  <>
+                    <p style={{ marginTop: "10px" }}>{talk["date2"]}</p>
+                    <div className="time-card" style={{ marginBottom: "20px" }}>
+                      <p>{talk["time-start2"]}</p>
+                    </div>
+                  </>
+                )}
+>>>>>>> 9278656 (feat: fix dates & times)
               </div>
             </TalkCardExpertWorkshops>
           ))}

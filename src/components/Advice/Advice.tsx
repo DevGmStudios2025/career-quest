@@ -56,27 +56,8 @@ const Advice = () => {
                 </h3>
                 <p style={{ marginTop: "30px" }}>{talk.date}</p>
                 <div className="time-card">
-<<<<<<< HEAD
-                  <p>{talk["time-start"]}</p>
-                  {talk["time-start-p"] && (
-                    <>
-                      <p>|</p>
-                      <p>{talk["time-start-p"]}</p>
-                    </>
-                  )}
-                </div>
-                {talk["date2"] && talk["time-start2"] && (
-                  <>
-                    <p style={{ marginTop: "10px" }}>{talk["date2"]}</p>
-                    <div className="time-card" style={{ marginBottom: "20px" }}>
-                      <p>{talk["time-start2"]}</p>
-                    </div>
-                  </>
-                )}
-=======
                   <p>{talk["time-start"]}</p> | <p>{talk["time-start-p"]}</p>
                 </div>
->>>>>>> 1bdd1ed (Initial commit)
               </div>
             </TalkCardAdvice>
           ))}
